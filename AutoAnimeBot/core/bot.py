@@ -35,7 +35,7 @@ class AutoAnimeBot(Client):
 
         self.logger.info("==================================")
         self.logger.info("AutoAnimeBot Started Bot Successfully")
-        self.logger.info("==========JOIN @TECHZBOTS=========")
+        self.logger.info("=======JOIN @Team_Katanashi========")
 
         self.logger.info("Adding Parsing Task")
         asyncio.create_task(auto_parser(TECHZ_API_KEY, self))
